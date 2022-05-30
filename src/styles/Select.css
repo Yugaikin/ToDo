@@ -1,0 +1,16 @@
+.sort{
+    margin-left: 2%;
+}
+
+@media screen and (min-width:580px) and (max-width:850px){
+    .sort{
+        width: 18%;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:580px){
+    .sort{
+        width: 26%;
+        margin-left: 2%;
+    }
+}

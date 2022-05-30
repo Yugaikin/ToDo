@@ -1,0 +1,41 @@
+.modal-window {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+}
+
+.modal-content {
+    padding: 25px;
+    background: white;
+    border-radius: 16px;
+    min-width: 15%;
+    padding-left: 6%;
+}
+
+.modal-window.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    display: block;
+    width: 195px;
+    margin-bottom: 3%;
+    margin-left: -1%;
+    height: 80px;
+    resize: none;
+}
+
+@media screen and (min-width:260px) and (max-width:1900px) {
+    .modal-content {
+        padding: 25px;
+        background: white;
+        border-radius: 16px;
+        min-width: 15%;
+        padding-left: 4%;
+    }
+}

@@ -1,0 +1,21 @@
+.filter__tasks{
+    padding-left: 12%;
+    padding-top: 3%;
+    display: flex;
+}
+
+@media screen and (min-width:580px) and (max-width:850px){
+    .filter__tasks{
+        padding-left: 5%;
+        padding-top: 3%;
+        display: flex;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:580px){
+    .filter__tasks{
+        padding-left: 5%;
+        padding-top: 3%;
+        display: flex;
+    }
+}

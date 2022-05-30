@@ -1,0 +1,53 @@
+.pagination{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.pagination ul{
+    list-style-type: none;
+}
+
+.pagination li {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    transition: background-color .7s;
+  }
+  
+
+.pagination li.active {
+    background-color: dodgerblue;
+   
+  }
+  
+.pagination li:hover:not(.active) {
+    background-color: #ddd;
+    color: rgb(68, 63, 63);
+  }
+
+@media screen and (min-width:500px) and (max-width:700px) {
+    .pagination li {
+      color: white;
+      float: left;
+      padding: 4px 8px;
+      text-decoration: none;
+      transition: background-color .7s;
+    }
+  }
+
+  @media screen and (min-width:200px) and (max-width:500px) {
+
+
+    .pagination{
+      margin-left: -2%;
+    margin-top: -3%;
+  }
+
+    .pagination li {
+      color: white;
+      float: left;
+      padding: 2px 4px;
+      text-decoration: none;
+      transition: background-color .7s;
+    }
+  }

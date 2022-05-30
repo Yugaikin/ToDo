@@ -1,0 +1,38 @@
+.post__list {
+    color: white;
+    list-style-type: none;
+    height: 300px;
+    border: 1px solid yellow;
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    padding-bottom: 5%;
+    word-wrap: break-word;
+}
+
+ h2 {
+    text-align: center;
+}
+
+ @media screen and (min-width:200px) and (max-width:650px){
+
+     .post__list {
+        margin-left: 15%;
+        width: 75%;
+        margin-left: 7%;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width:450px){
+    h2 {
+        text-align: center;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (min-width:250px) and (max-width:350px){
+    h2 {
+        text-align: center;
+        margin-right: 25%;
+    }
+}

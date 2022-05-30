@@ -1,0 +1,39 @@
+.inp {
+    margin-left: 7%;
+    width: 60%;
+    border: 1px solid yellow;
+    height: 30px;
+    font-size: 16px;
+ }
+
+ .flag{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+    outline: none;
+    transition: background 0.3s ease;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    background: url(flag_uncheck.png) 0 0 no-repeat;
+}
+
+.flag:checked{
+    background: url(flag_check.png);
+}
+
+@media screen and (min-width:250px) and (max-width:850px) {
+    input[type="checkbox"] {
+        margin-top: 3%;
+    }
+}
+
+ @media  screen and (min-width: 250px) and (max-width: 500px){
+
+    .inp{
+        margin-bottom: 5%;
+    }
+     
+ }
